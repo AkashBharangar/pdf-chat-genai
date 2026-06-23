@@ -10,9 +10,11 @@ def main():
 
     print("\n📄 Extracting text...")
     text = extract_text_from_pdf(pdf_path)
+    print("\n text \n" + text)
 
     print("✂️ Chunking text...")
     chunks = chunk_text(text)
+    print("\n Chunks \n", chunks)
 
     print(f"✅ Total chunks created: {len(chunks)}")
 
@@ -24,6 +26,8 @@ def main():
 
         print("\n🔎 Retrieving relevant chunks...")
         relevant_chunks = retrieve_relevant_chunks(query, chunks)
+        print("\n relevant_chunks \n", relevant_chunks)
+        
 
         print("🤖 Generating answer...\n")
         answer = get_answer(query, relevant_chunks)
