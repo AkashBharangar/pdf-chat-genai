@@ -1,4 +1,12 @@
-# 📄 PDF Chat with Groq (Beginner RAG Project)
+# 📄 PDF Chat with Groq (RAG System)
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![RAG](https://img.shields.io/badge/Architecture-RAG-purple.svg)
+![LLM](https://img.shields.io/badge/LLM-Llama%203-orange.svg)
+![Groq API](https://img.shields.io/badge/Inference-Groq%20API-red.svg)
+![NLP](https://img.shields.io/badge/NLP-Document%20QA-green.svg)
+![GenAI](https://img.shields.io/badge/GenAI-Project-blueviolet.svg)
+![Status](https://img.shields.io/badge/Status-Active%20Learning-brightgreen.svg)
 
 A beginner-friendly **Retrieval-Augmented Generation (RAG)** project that allows users to chat with the contents of a PDF document using the **Groq API** and **Llama 3**.
 
